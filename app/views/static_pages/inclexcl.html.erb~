@@ -5,13 +5,15 @@
       This page is a placeholder for Trial Inclusion Exclusion Criteria  <br>
       <br> 
       Elements Will include:  <br>
+
 	<li>1. Download inclusion and exclusion criteria</li>  <br>
+
 	<li>2. Add user specific inclusion and exclusion criteria></li>  <br>
 
         ie This data would input into a data object <br>
 	and would be accessable alongside the generic .gov data
 
-	<%= link_to image_tag("inclexcl.jpg", alt: "DTrial") %>
+
 	
     </p>
 
