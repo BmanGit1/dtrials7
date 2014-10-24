@@ -1,0 +1,11 @@
+<% provide(:title, 'Edit DTrial Data and Media Stack') %>
+
+    <h1>Edit DTrial Data and Media Stack</h1>
+    <p>
+      This page is a placeholder for Data Stck Edits  <br>
+      <br> 
+      Elements Will include:  <br>
+	<li>1. Ability to view and edit information in the stack</li>  <br>
+	
+    </p>
+

@@ -1,0 +1,11 @@
+<% provide(:title, 'Team Management') %>
+
+    <h1>Team Management</h1>
+    <p>
+      This page is a placeholder for Team Management  <br>
+      <br> 
+      Elements Will include:  <br>
+	<li>1. Add, and delete eligible team members</li>  <br>
+	<li>1. Set team member priviledges</li>  <br>	
+    </p>
+

@@ -1,0 +1,18 @@
+<% provide(:title, 'Trial Data Stack') %>
+
+    <h1>Data Stack</h1>
+    <p>
+      This page is a placeholder for accessing interal and exteral data for each trial  <br>
+      <br> 
+      Elements Will include:  <br>
+
+	<li>1. Access data stack by each trial</li>  <br>
+
+	<li>2. compare data side by side for selected trials></li>  <br>
+	    ie compare all inclusion criteria for two selected trials
+        ie This data would input into a data object <br>
+
+	<%= link_to image_tag("inclexcl.jpg", alt: "DTrial") %>
+	
+    </p>
+

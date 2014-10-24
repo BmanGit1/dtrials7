@@ -1,0 +1,14 @@
+<% provide(:title, 'ADMINISTRATION') %>
+
+    <h1>Trial and Team Administration</h1>
+    <p>
+      This page is a placeholder for Administration  <br>
+      <br> 
+      Elements Will include:  <br>
+	<li><%= link_to "1. Setup of Trials",   root_path %></li>  <br>
+	<li>2. Edit of Trials </li> <br>
+	3. Addition of Team members  <br>
+	4. Communication to Team members  <br>
+	5. Certification control and managment <br>
+    </p>
+
