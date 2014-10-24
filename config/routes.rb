@@ -23,6 +23,9 @@ SampleApp::Application.routes.draw do
   match '/teammanagement', to:	'static_pages#teammanagement'
   match '/teamcommunication', to: 'static_pages#teamcommunication'
   match '/certification',  to:	'static_pages#certification'
+  match '/datastackadd',	to:	'static_pages#datastackadd'   # adding dtrials media/data to data stack
+
+
 
   match '/help',	to:	'static_pages#help'
   match '/about',	to:	'static_pages#about'

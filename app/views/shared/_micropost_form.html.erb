@@ -5,8 +5,9 @@
 
   <%= render 'shared/error_messages', object: f.object %>
 
-  <div class="field">
-	<%= f.text_area :trial, placeholder: "Trial Name(20 char)" %>
+  <%= f.select :trial, [ 'Atomizer', 'OfficeWorkCure IV', 'OfficeWorkCure I', 'Speed 1076', 'Super X' ], :prompt => 'Select Trial' %>
+
+
 
   <div class="field">
 	<%= f.text_area :content, placeholder: "Comments on information... " %>

@@ -29,7 +29,7 @@ namespace :db do
 
 	# create 50 posts each for first 6 users
 	users = User.all(limit:6)  # get first 6 users
-	50.times do
+	5.times do
 	  content = Faker::Lorem.sentence(5)   # set content to Faker misc latin
 	  users.each { |user| user.microposts.create!(content: content) }  # run through each of the 6 users
 	end

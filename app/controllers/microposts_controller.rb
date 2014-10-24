@@ -7,14 +7,15 @@ before_filter :correct_user, only: :destroy  # only user=micropost originator ca
 
 
   # run this if Post Button is pressed
+  # note Micropost creation happens on the datastackadd static pages now
   def create
 	@micropost = current_user.microposts.build(params[:micropost])
 	if @micropost.save
 	  flash[:success] = "Micropost created!"
-	  redirect_to root_path
+	  redirect_to datastackadd_path
 	else
 	  @feed_items = []        # bad micropost so zero out the feed_items
-	  render 'static_pages/home'  # return to home page
+	  render 'static_pages/datastackadd'  # return to datastackadd in /staticpages
 	end
   end
 
@@ -22,7 +23,7 @@ before_filter :correct_user, only: :destroy  # only user=micropost originator ca
 
   def destroy
 	@micropost.destroy
-	redirect_back_or root_path
+	redirect_back_or root_path   #??? I dont know where this should go yet, looks wrong even now
   end
 
 

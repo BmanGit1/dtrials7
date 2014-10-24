@@ -6,15 +6,15 @@
       <br> 
       Elements Will include:  <br>
 
-	<li><%= link_to "1. Setup of Trials",   root_path %></li>  <br>
+	<li><%= link_to "1. Trials Data and Media Build",   datastackadd_path %></li>  <br>
 	
-	<li><%= link_to "2. trials edit",   tedit_path %></li>  <br>
+	<li><%= link_to "2. Trials Data and Media edit",   tedit_path %></li>  <br>
 
 	<li><%= link_to "3. Team Management",   teammanagement_path %></li>  <br>
 
 	<li><%= link_to "4. Team Communication",   teamcommunication_path %></li>  <br>
 
-	<li><%= link_to "3. Team Management",   certification_path %></li>  <br>
+	<li><%= link_to "5. Certifications",   certification_path %></li>  <br>
 
 
     </p>
